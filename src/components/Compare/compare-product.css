@@ -1,0 +1,92 @@
+.group24 {
+    background-color: rgba(253, 250, 246, 1);
+    padding: 27px 232px 28px 54px;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+  }
+  .flexWrapperOne-compare {
+    margin-right: 103px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .zincovitTabletApexLaboratories {
+    height: 51.11%;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 1);
+    align-self: stretch;
+    margin-bottom: 6px;
+  }
+  .paracetamol650mg {
+    width: 43.4%;
+    height: 35.56%;
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .num8607 {
+    width: 6.31%;
+    height: 51.11%;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: line-through;
+    margin-top: 1px;
+    margin-right: 4px;
+  }
+  .num43 {
+    width: 3.62%;
+    height: 51.11%;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: rgba(45, 167, 113, 1);
+    margin-top: 1px;
+    margin-right: 104px;
+  }
+  .flexWrapperTwo-compare {
+    margin-right: 107px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .paracetamol650mgTwo {
+    width: 69.35%;
+    height: 35.56%;
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  .num43Two {
+    width: 3.62%;
+    height: 51.11%;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: rgba(45, 167, 113, 1);
+  }
+  .delete {
+    width: 4.63%;
+    height: 23%;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: rgba(255, 58, 68, 1);
+    position: absolute;
+    right: 43px;
+    top: 27px;
+  }

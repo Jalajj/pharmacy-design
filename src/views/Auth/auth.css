@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+
+.create-account-container {
+    min-height: 100vh;
+  }
+  /* .create-account-createaccount2189 {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background: #DFF1F9;
+  }  */
+
+
+.auth-title{
+    color: rgba(0, 0, 0, 1);
+  height: auto;
+  
+  font-size: 40px;
+  font-style: normal;
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 500px;
+  line-height: 129.99999523162842%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.auth-btn{
+    width: 372px;
+    height: 60px;
+    color:white;
+   
+    object-fit: cover;
+    border-color: transparent;
+    border-radius: 10px;
+    margin:auto;
+    background-color: rgba(0, 0, 0, 1);
+}

@@ -1,0 +1,26 @@
+.respCategory {
+    background-color: rgba(239, 250, 255, 1);
+    border-radius: 5px;
+    padding: 20px 10px 19px 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100px;
+    height:100px;
+  }
+  .rectangle33-resp {
+    width: 41.76%;
+    height: 53.52%;
+    margin-bottom: 7px;
+  }
+  .uploadPrescription-resp {
+    height: 36.62%;
+    font-family: "Poppins";
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 13px;
+    color: rgba(0, 0, 0, 1);
+    align-self: stretch;
+    text-align: center;
+  }
+ 

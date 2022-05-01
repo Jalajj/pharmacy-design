@@ -1,0 +1,146 @@
+.searchNav {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 60px;
+    margin-top:40px; 
+    margin-left:60px;
+  }
+  .group1-nav {
+    background-color: rgba(223, 241, 249, 1);
+    margin-right: 116px;
+    border-radius: 50%;
+    padding: 17.52px 10.49px 12.13px 10.78px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .screenshot20220403At12501 {
+    height: 100%;
+    flex: 1;
+    object-fit: cover;
+  }
+  .flexWrapperTwo-nav{
+    background-color: white;
+    width:35%;
+    margin-top: 5px;
+    margin-right: 56px;
+    border-radius: 100px;
+    padding: 17px 18px 16px 21px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(68, 88, 125, 1);
+  }
+  /* .search-nav {
+    width: calc(8.09% - 6.26px);
+    margin-right: 33px;
+    padding: 3.13px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+  } */
+  /* .vector-nav {
+    width: 56.94%;
+    height: 56.94%;
+    margin-bottom: -2.46px;
+    border-radius: 50%;
+    border: 3px solid rgba(0, 0, 0, 1);
+  }
+  .vectorTwo-nav {
+    width: 24.17%;
+    height: 24.17%;
+    margin-left: 14.21px;
+  } */
+  .searchWeHaveEverything-nav {
+    width: 100%;
+    height: 92%;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  .categories-nav{
+    width: 6.06%;
+    height: 29.23%;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 26px;
+    margin-right: 29px;
+  }
+  .compareMedicines-nav {
+    width: 15%;
+    height: 29.23%;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 26px;
+    margin-right: 10px;
+  }
+  .storeLocator {
+    width: 10.22%;
+    height: 29.23%;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 26px;
+    margin-right: 58px;
+  }
+  .flexWrapperThree-nav {
+    background-color: white;
+    width:77px;
+    height:40px;
+    margin-top: 15px;
+    margin-right: 22px;
+    border-radius: 2px;
+    padding: 9px 10px 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 1);
+  }
+  .shoppingCart-nav {
+    width: 37.21%;
+    height: 88.89%;
+    margin-right: 8px;
+  }
+  .num02 {
+    width: 44.19%;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 1);
+    align-self: stretch;
+    display: flex;
+  }
+  .flexWrapperOne-nav {
+    background-color: rgba(0, 0, 0, 1);
+    margin-top: 14px;
+    border-radius: 2px;
+    /* padding: 11px 35px 10px 34px; */
+    width:120px;
+    height:40px;
+    /* padding: 5px 50px 5px 50px; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .signIn-nav {
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+    color: white;
+    flex: 1;
+    align-self: stretch;
+  }

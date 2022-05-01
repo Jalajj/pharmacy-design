@@ -1,0 +1,35 @@
+.nav {
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+    margin-top:80px !important; 
+    margin-left:60px;
+  }
+  .group1 {
+    background-color: rgba(223, 241, 249, 1);
+    margin-right: 70px;
+    border-radius: 50%;
+    padding: 13px 7.78px 9px 8px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .screenshot20220403At12501 {
+    flex: 1;
+    align-self: stretch;
+    object-fit: cover;
+  }
+  .frame17 {
+    width: 80.63%;
+    height: 41.3%;
+    display: flex;
+    align-items: flex-start;
+  }
+  .compareMedicines {
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 1);
+   
+      margin-right: 29px;
+  }

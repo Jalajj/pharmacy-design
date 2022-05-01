@@ -1,0 +1,61 @@
+.suggestion-title{
+    font-family: "Poppins";
+    font-size: 45px;
+    font-weight: 500;
+}
+.suggestionHeader {
+    background-color: rgba(222, 240, 248, 1);
+    border-radius: 5px 5px 0px 0px;
+    padding: 33px 295px 24px 34px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .medication {
+    width: 11.05%;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 1);
+    align-self: stretch;
+    margin-right: 175px;
+  }
+  .manufacturer {
+    width: 11.92%;
+    height: 91.3%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 1);
+    margin-right: 114px;
+  }
+  .packOf {
+    width: 6.39%;
+    height: 91.3%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 1);
+    margin-right: 92px;
+  }
+  .retailPrice {
+    width: 9.64%;
+    height: 91.3%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 1);
+    margin-right: 109px;
+  }
+  .ourPrice {
+    width: 7.91%;
+    height: 91.3%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 1);
+  }

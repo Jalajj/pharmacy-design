@@ -1,0 +1,19 @@
+.header-mobnav{
+    display: flex;
+    align-items: flex-start;
+  }
+  .sugamAushadhi-mobnav {
+    width:100%; 
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    color: rgba(0, 0, 0, 1);
+    align-self: stretch;
+    margin-right: 50px;
+  }
+  .alignRight-mobnav{
+    width: 10%;
+    height: 88.89%;
+  }
+  

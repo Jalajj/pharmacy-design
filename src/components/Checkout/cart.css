@@ -1,0 +1,319 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+  }
+  .flexWrapperOne-cart {
+    background-color: rgba(223, 241, 249, 1);
+    margin-bottom: 17px;
+    border-radius: 10px;
+    /* padding: 17px 50px 17px 35px; */
+    padding:17px 50px 17px 20px;;
+    width:500px;
+    display: flex;
+    align-items: center;
+  }
+  .freeDeliveryForOrdersOver499 {
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 1);
+    
+    align-self: stretch;
+    width:100%;
+  }
+  .flexWrapperTwo-cart {
+    border-radius: 10px;
+    padding: 31px 23px 34px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    border: 2px solid rgba(230, 230, 230, 1);
+  }
+  .yourOrder {
+    width: 26.23%;
+    height: 4.2%;
+    font-family: "Montserrat";
+    font-size: 19px;
+    font-weight: 600;
+    line-height: normal;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 61px;
+    margin-left: 24px;
+  }
+  .flexWrapperSeven-cart {
+    margin-bottom: 28px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .flexWrapperThree-cart {
+    background-size: 100% 100%;
+    background-position: center;
+    background-image: url("https://static.overlay-tech.com/assets/780831e5-e55a-4be6-85a8-3db405f51788.png");
+    margin-top: 4px;
+    margin-right: 21px;
+    border-radius: 2px;
+    padding: 19px 11px 20px 10px;
+    display: flex;
+    align-items: center;
+  }
+  .screenshot20220405At10051 {
+    flex: 1;
+    align-self: stretch;
+  }
+  .flexWrapperEleven-cart {
+    margin-right: 15px;
+    padding: 5px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .flexWrapperFour-cart {
+    background-color: rgba(223, 241, 249, 1);
+    margin-bottom: 8px;
+    border-radius: 4px;
+    padding: 7px 16px 5.53px 9.68px;
+    display: flex;
+    align-items: center;
+  }
+  .screenshot20220405At10101 {
+    width: 10.57%;
+    height: 96.73%;
+    margin-right: 2.97px;
+  }
+  .prescriptionRequired-cart {
+    width: 87.08%;
+    height: 96.51%;
+    font-family: "Poppins";
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 13px;
+    color: rgba(0, 0, 0, 1);
+  }
+  .dolo650Tablet-cart {
+    width: 77.07%;
+    height: 27.66%;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 8px;
+  }
+  .flexWrapperTwelve-cart {
+    margin-bottom: 3px;
+    display: flex;
+    align-items: flex-start;
+    width:100%;
+  }
+  .microLabsLtd {
+    width: 100%;
+    font-family: "Poppins";
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 1);
+    align-self: stretch;
+    margin-right: 10px;
+  }
+  .num20Tablets-cart {
+    width: 100%;
+    font-family: "Poppins";
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 1);
+    align-self: stretch;
+  }
+  .saltCompositionParacetamol650mg-cart {
+    height: 14.89%;
+    align-self: stretch;
+    font-family: "Poppins";
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 1);
+  }
+  .saltCompositionParacetamol650mgEmphasis0-cart {
+    font-family: "Poppins";
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .num7688 {
+    width: 16.42%;
+    height: 25.96%;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 1);
+  }
+  .rectangle68-cart {
+    width: 85.78%;
+    height: 0.36%;
+    background-color: rgba(230, 230, 230, 1);
+    margin-bottom: 15px;
+    margin-left: 25px;
+  }
+  .flexWrapperFive-cart {
+    background-size: 100% 100%;
+    background-position: center;
+    background-image: url("https://static.overlay-tech.com/assets/3c4e161e-e16c-4432-bd43-9c8f51779897.png");
+    margin-top: 5px;
+    margin-right: 21px;
+    border-radius: 2px;
+    padding: 16px 24px 17px 23px;
+    display: flex;
+    align-items: center;
+  }
+  .flexWrapperThirteen-cart {
+    margin-right: 8px;
+    padding: 21px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .crocinAdvance {
+    width: 77.56%;
+    height: 56.82%;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 9px;
+  }
+  .apexLabsLtd {
+    width: 50.74%;
+    font-family: "Poppins";
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 1);
+    align-self: stretch;
+    margin-right: 17px;
+  }
+  .saltCompositionParacetamol650mgTwo {
+    height: 31.82%;
+    align-self: stretch;
+    font-family: "Poppins";
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14px;
+    color: rgba(0, 0, 0, 1);
+  }
+  .num7688Two {
+    width: 16.71%;
+    height: 25.71%;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 1);
+  }
+  .rectangle69-cart{
+    width: 85.78%;
+    height: 0.36%;
+    background-color: rgba(230, 230, 230, 1);
+    margin-bottom: 26px;
+    margin-left: 25px;
+  }
+  .flexWrapperNine-cart {
+    margin-bottom: 17px;
+    padding: 0 0 0 46px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .delivery {
+    width: 25.79%;
+    align-self: stretch;
+    margin-right: 198px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .deliveryEmphasis1 {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 1);
+  }
+  .free {
+    width: 100%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 1);
+    align-self: stretch;
+  }
+  .flexWrapperTen-cart {
+    margin-bottom: 18px;
+    padding: 0 0 0 46px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .discount {
+    width: 27.84%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.6);
+    align-self: stretch;
+    margin-right: 188px;
+  }
+  .num20 {
+    width: 16.47%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 1);
+    align-self: stretch;
+  }
+  .flexWrapperSix-cart {
+    background-color: rgba(255, 255, 255, 1);
+    margin-left: 25px;
+    border-radius: 8px;
+    padding: 22px 29px 19px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .total {
+    width: 21.58%;
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 34px;
+    color: rgba(0, 0, 0, 1);
+    align-self: stretch;
+    margin-right: 165px;
+  }
+  .num456 {
+    width: 100%;
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 34px;
+    color: rgba(0, 0, 0, 1);
+    align-self: stretch;
+   
+    margin-left:60%;
+  }
+  .rectangle66 {
+    width: 100.88%;
+    height: 0.33%;
+    background-color: rgba(230, 230, 230, 1);
+    position: absolute;
+    left: -2px;
+    top: 77px;
+  }

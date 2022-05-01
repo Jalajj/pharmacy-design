@@ -1,0 +1,193 @@
+.group6-footer {
+    background-color: white;
+    width:100%;
+    
+    /* padding: 58px 250px 70px 79px; */
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    margin:auto;
+    padding-left: 50px;
+  }
+  .flexWrapperOne-footer{
+    margin-right: 194px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .comeShopOffline {
+    font-family: "Poppins";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 39px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 35px;
+  }
+  .relativeWrapperOne {
+    position: relative;
+  }
+  .rectangle33 {
+    width: 141px;
+    height: 199px;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),
+      url("https://static.overlay-tech.com/assets/80d1b708-8914-40ba-bbcb-8d847a0f2ab9.png");
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 2px;
+    position: relative;
+  }
+  .rectangle34 {
+    width: 68px;
+    height: 199px;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),
+      url("https://static.overlay-tech.com/assets/fee897fa-b9d5-4cc5-b755-b5cb7aa56a0d.png");
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 2px;
+    position: absolute;
+    right: -83px;
+    top: 0;
+  }
+  .rectangle35 {
+    width: 68px;
+    height: 199px;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),
+      url("https://static.overlay-tech.com/assets/de40fec6-96ec-4ea1-8a94-35bdf5c8b948.png");
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 2px;
+    position: absolute;
+    right: -167px;
+    top: 0;
+  }
+  .connaughtPlace {
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: white;
+    text-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
+    position: absolute;
+    right: -114px;
+    top: 18px;
+  }
+  .patelNagar {
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: white;
+    text-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
+    position: absolute;
+    right: -144px;
+    top: 74px;
+  }
+  .rajpathArea {
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: white;
+    text-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
+    position: absolute;
+    right: -242px;
+    top: 62px;
+  }
+  .flexWrapperTwo-footer {
+    padding: 14px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 70px;
+    
+  }
+  .checkOut {
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 28px;
+  }
+  .blogs {
+    font-family: "Poppins";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 1);
+      margin-bottom: 11px;
+  }
+  .flexWrapperThree-footer {
+    margin-right: 124px;
+    padding: 14px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .wereOnline {
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 31px;
+  }
+  .appStore {
+    width: 180px;
+    height: 52px;
+    margin-bottom: 18px;
+  }
+  .termsAndConditions-footer {
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 1);
+    /* position: absolute; */
+    /* left: 620px;
+    bottom: 72px; */
+  }
+  .copyright2022SugamAushadhiPvtLtd {
+    /* position: absolute;
+    right: 566px;
+    bottom: 40px; */
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 1);
+  }
+  .copyright2022SugamAushadhiPvtLtdEmphasis1 {
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 1);
+  }
+  .copyright2022SugamAushadhiPvtLtdEmphasis3 {
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 1);
+  }
+  .privacyPolicy {
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 1);
+    margin-left: 40px;
+    /* position: absolute;
+    right: 645px;
+    bottom: 72px; */
+  }

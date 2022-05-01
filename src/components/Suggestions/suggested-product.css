@@ -1,0 +1,112 @@
+.suggestionProduct-suggested {
+    background-color: rgba(253, 250, 246, 1);
+    padding: 15px 27px 14px 14px;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: flex-start;
+  }
+  .rectangle205-suggested {
+    width: 5.86%;
+    align-self: stretch;
+    margin-right: 16px;
+    object-fit: cover;
+  }
+  .flexWrapperTwo-suggested {
+    margin-right: 72px;
+    padding: 13px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .zincovitTablet {
+    width: 100%;
+    height: 71.88%;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 6px;
+  }
+  .paracetamol650mg {
+    height: 50%;
+    font-family: "Poppins";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.8);
+    align-self: stretch;
+  }
+  .glimepiride {
+    width: 8.75%;
+    height: 32.39%;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 13px;
+    margin-right: 137px;
+  }
+  .num20 {
+    width: 1.82%;
+    height: 32.39%;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 12px;
+    margin-right: 110px;
+  }
+  .num8607 {
+    width: 5.04%;
+    height: 32.39%;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 13px;
+    margin-right: 4px;
+  }
+  .num45 {
+    width: 4.21%;
+    height: 32.39%;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: rgba(255, 58, 68, 1);
+    margin-top: 13px;
+    margin-right: 82px;
+  }
+  .num8607Two {
+    width: 5.04%;
+    height: 32.39%;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 13px;
+    margin-right: 109px;
+  }
+  .flexWrapperOne-suggested {
+    background-color: rgba(253, 250, 246, 1);
+    margin-top: 13px;
+    border-radius: 10px;
+    padding: 7px 38px 8px 39px;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgba(28, 54, 104, 1);
+  }
+  .addToCart-suggested {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 1);
+    flex: 1;
+    align-self: stretch;
+  }

@@ -1,0 +1,10 @@
+.name-input{
+    width: 500px;
+    height: 60px;
+    border: 2px solid rgba(230, 230, 230, 1);
+    border-radius: 10px;
+    font-size:14;
+    font-family:'Poppins';
+    font-weight:600;
+    padding: 20px;
+}

@@ -1,0 +1,123 @@
+.product {
+    background-color: rgba(243, 243, 243, 1);
+    border-radius: 10px;
+    padding: 27px 31px 18px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .screenshot20220403At4521 {
+    width: 174px;
+    height: 250px;
+    margin-bottom: 31px;
+    margin-left: 33px;
+  }
+  .optimumNutritionOnGoldStandard100 {
+    max-width: 239px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 11px;
+  }
+  .jarOf2lbPowder {
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 27px;
+  }
+  .flex-wrapper {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .mrp2999 {
+    margin-right: 6px;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .num50Off {
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: rgba(73, 165, 66, 1);
+  }
+  .num1499 {
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 500;
+    line-height:32px;
+    color: black;
+  }
+
+  @media only screen and (max-width: 500px){
+.product {
+  background-color: rgba(243, 243, 243, 1);
+  border-radius: 6px;
+  padding: 15.28px 17px 16.97px 16.98px;
+  width:160px;
+  max-height:330px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.screenshot20220403At4521 {
+  width: 98.46px;
+  height: 141.47px;
+  margin-bottom: 17.54px;
+  margin-left: 18.67px;
+}
+.optimumNutritionOnGoldStandard100 {
+  /* max-width: 135.24px; */
+  width:150px;
+  font-family: "Poppins";
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 12px;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 5.99px;
+}
+.jarOf2lbPowder {
+  font-family: "Poppins";
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 10px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 15.46px;
+}
+.flex-wrapper {
+  margin-bottom: 3.02px;
+  display: flex;
+  align-items: flex-start;
+}
+.mrp2999 {
+  margin-right: 3.4px;
+  font-family: "Poppins";
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 10px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.num50Off {
+  font-family: "Poppins";
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 10px;
+  color: rgba(73, 165, 66, 1);
+}
+.num1499 {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 13.69px;
+}
+  }

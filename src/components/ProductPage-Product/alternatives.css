@@ -1,0 +1,94 @@
+
+  .alternativesTwo {
+    width: calc(99.03% - 58px);
+    height: calc(99.23% - 72px);
+    border-radius: 5px;
+    padding: 30px 34px 42px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    border: 2px solid rgba(235, 236, 241, 1);
+  }
+  .alternatives {
+    width: 43.27%;
+    height: 7.17%;
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 44px;
+    margin-left: 7px;
+  }
+  .crocinAdvanceTablet-alternative {
+    /* width: 59.31%; */
+    width:80%;
+    height: 5.61%;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 7px;
+    margin-left: 80px;
+  }
+  .flexWrapperOne-alternative {
+    padding: 0 0 0 142px;
+    display: flex;
+    align-items: center;
+     margin-bottom: 26px;
+    
+  }
+  .num23 {
+    width: 100%;
+    height: 86.96%;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(255, 58, 68, 1);
+    margin-right: 10px;
+  }
+  .packOf30 {
+    /* width: 88px; */
+    align-self: stretch;
+    font-family: "Poppins";
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .packOf30Emphasis1 {
+    font-family: "Poppins";
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 1);
+  }
+  .rectangle46-alternative {
+    height: 0.45%;
+    background-color: rgba(235, 236, 241, 1);
+    margin-bottom: 22px;
+    align-self: stretch;
+  }
+  .num34 {
+    width: 500%;
+    height: 86.96%;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(45, 167, 113, 1);
+    margin-right: 10px;
+  }
+  .num23Two {
+    width: 490.91%;
+    height: 86.96%;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(255, 58, 68, 1);
+    margin-right: 11px;
+  }

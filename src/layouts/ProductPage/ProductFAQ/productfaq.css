@@ -1,0 +1,36 @@
+.productfaq {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:80%;
+  }
+  .productInfo {
+    width: 38.23%;
+    height: 8.89%;
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 25px;
+    margin-left: 3px;
+  }
+  .q1WhatIsTheUseOfTheDolo650mgTa {
+    height: 24.69%;
+    align-self: stretch;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 1);
+   
+      margin-bottom: 22px;
+    
+  }
+  .q1WhatIsTheUseOfTheDolo650mgTaEmphasis0 {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 1);
+  }

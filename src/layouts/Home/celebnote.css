@@ -1,0 +1,57 @@
+.celebNote {
+    padding: 57px 0 0;
+    max-width: 1119px;
+  }
+  .screenshot20220404At4011 {
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 17px;
+    top:280px;
+    
+    border-radius: 5px;
+    z-index: 10000;
+  }
+  .flexWrapperOne {
+    background-color: rgba(248, 212, 137, 1);
+    border-radius: 10px;
+    padding: 59px 61px 83px 464px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+  }
+  .everyoneShouldHaveSafeAffordableM {
+    height: 68.7%;
+    font-family: "Poppins";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    color: rgba(0, 0, 0, 1);
+  
+    margin-bottom: 17px;
+  }
+  .narendraModi {
+    width: 22.73%;
+    height: 18.32%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 1);
+    font-style: italic;
+  }
+  @media only screen and (max-width: 450px){
+
+    
+    .everyoneShouldHaveSafeAffordableM{
+      font-size: 20px;
+      font-weight: 500;
+      width:100%;
+      margin-left:30px;
+    }
+    .narendraModi {
+      width:100%;
+      margin-left:30px;
+    }
+  }

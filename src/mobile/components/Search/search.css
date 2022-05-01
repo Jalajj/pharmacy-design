@@ -1,0 +1,40 @@
+.searchTwo {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 6px;
+    padding: 12px 41px 12px 13px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+   
+  }
+  .search-mobile {
+    width: calc(7.67% - 6px);
+    /* margin-right: 23px; */
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+  .vector-mobile {
+    width: 66.67%;
+    height: 66.67%;
+    margin-bottom: -2.35px;
+    border-radius: 50%;
+    border: 2px solid rgba(166, 166, 166, 1);
+  }
+  .vectorTwo-mobile {
+    width: 24.17%;
+    height: 24.17%;
+    /* margin-left: 13.65px; */
+  }
+  .searchAnythingWeGotThemAll-mobile {
+    max-width: 266px;
+    width: 84%;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+    color: rgba(0, 0, 0, 0.4);
+    align-self: stretch;
+  }

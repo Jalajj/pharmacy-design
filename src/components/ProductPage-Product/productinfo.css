@@ -1,0 +1,115 @@
+.productPageInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height:50vh;
+  }
+  .flexWrapperOne-info {
+    background-color: rgba(223, 241, 249, 1);
+    margin-bottom: 22px;
+    border-radius: 10px;
+    padding: 23px 108px 22px 76px;
+    display: flex;
+    align-items: center;
+  }
+  .prescriptionRequired {
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 1);
+    flex: 1;
+    align-self: stretch;
+  }
+  .flexWrapperTwo-info {
+    background-color: white;
+    margin-bottom: 32px;
+    border-radius: 5px;
+    padding: 27px 17px 33px 29px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .whyDoesMyMedicationLookDifferent {
+    height: 38.92%;
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 1);
+    align-self: stretch;
+    margin-bottom: 13px;
+  }
+  .differentManufacturersProduceDifferen {
+    max-width: 351px;
+    width: 98.32%;
+    height: 54.05%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 1);
+    margin-left: 1px;
+  }
+  .manufactureMicroLabsLtd {
+    width: 55.83%;
+    height: 3.97%;
+    /* margin-bottom: 9px; */
+    margin-left: 30px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 1);
+  }
+  .manufactureMicroLabsLtdEmphasis0 {
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .num1Strip20Tablets {
+    width: 33%;
+    height: 3.97%;
+    margin-bottom: 8px;
+    margin-left: 30px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 1);
+  }
+  .saltCompositionParacetamol650mg {
+    width: 81.39%;
+    height: 3.97%;
+    margin-bottom: 35px;
+    margin-left: 30px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 1);
+  }
+  .num50Off {
+    width: 14.64%;
+    height: 3.79%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    color: rgba(73, 165, 66, 1);
+    margin-bottom: 6px;
+    margin-left: 128px;
+  }
+  .ourPrice25 {
+    width: 49.63%;
+    height: 7.04%;
+    font-family: "Poppins";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 39px;
+    color: rgba(0, 0, 0, 1);
+    margin-left: 30px;
+  }
+ 

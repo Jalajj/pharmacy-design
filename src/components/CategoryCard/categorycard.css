@@ -1,0 +1,40 @@
+.categoryCard {
+    background-color: white;
+    border-radius: 5px;
+    width:250px;
+    height:150px;
+     /* padding: 10px 10px 20px;  */
+    /* max-width:250px;
+    max-height: 150px; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start; */
+    margin:30px;
+    border: 1px solid rgba(236, 236, 236, 1);
+  }
+  .rectangle33 {
+    /* width: 200px; */
+    object-fit: cover;
+    height:100%;
+    /* height: 56.18%; */
+    margin-bottom: 18px;
+  }
+  .medicine {
+    height: 23.6%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 1);
+    align-self: stretch;
+  }
+
+  @media only screen and (max-width: 500px){
+    .categoryCard {
+      width:155px;
+      height:120px;
+      margin:auto;
+      margin-top:20px !important;
+ 
+    }
+  }

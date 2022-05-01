@@ -1,0 +1,121 @@
+.respProduct {
+    display: flex;
+    align-items: flex-start;
+  }
+  .screenshot20220403At4527 {
+    width: 23.62%;
+    align-self: stretch;
+    margin-right: 23px;
+    object-fit: cover;
+  }
+  .flexWrapperOne-product-resp {
+    padding: 5px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .optimumNutritionOnGoldStandard100 {
+    height: 53.01%;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 1);
+    align-self: stretch;
+    margin-bottom: 4px;
+  }
+  .jarOf2lbPowder {
+    width: 40.85%;
+    height: 15.66%;
+    font-family: "Poppins";
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 9px;
+  }
+  .num1500 {
+    width: 26.97%;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 1);
+    align-self: stretch;
+    margin-right: 8px;
+  }
+  .num2999 {
+    width: 28.95%;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.6);
+    align-self: stretch;
+    text-decoration: line-through;
+    margin-right: 8px;
+  }
+  .num50Off-mobile {
+    width: 100%;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: rgba(73, 165, 66, 1);
+    align-self: stretch;
+  }
+  
+  .addToBagTwo {
+    display: flex;
+    align-items: center;
+  }
+  .shoppingBag {
+    width: 6.6%;
+    height: 62.5%;
+    margin-right: 14px;
+  }
+  .addToBag {
+    width: 29.7%;
+    height: 81.25%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 1);
+    margin-right: 65px;
+  }
+  .flexWrapperOne-resp-add {
+    background-color: rgba(253, 239, 220, 1);
+    margin-right: 16px;
+    border-radius: 50%;
+    padding: 3px 10px;
+    display: flex;
+    align-items: center;
+  }
+  .hyphen-resp-add {
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 1);
+    flex: 1;
+    align-self: stretch;
+  }
+  .num01-resp-add {
+    width: 5.28%;
+    height: 65.63%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 1);
+    margin-right: 18px;
+  }
+  .flexWrapperTwo-resp-add {
+    background-color: rgba(253, 239, 220, 1);
+    border-radius: 50%;
+    padding: 3px 8px 3px 9px;
+    display: flex;
+    align-items: center;
+  }
+  
