@@ -1,7 +1,6 @@
 import React from 'react'
 import Categories from '../../layouts/Category/Categories/Categories';
 import Landing from '../../layouts/Category/Landing-Layout/Landing';
-import Footer from '../../layouts/Footer/Footer';
 import ProductLayout from '../../layouts/Home/Product/Product-layout';
 import Nav from './../../layouts/Nav/Nav';
 import { useGlobalContext } from './../../context/index';
