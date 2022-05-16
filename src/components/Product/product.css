@@ -1,21 +1,33 @@
 .product {
     background-color: rgba(243, 243, 243, 1);
     border-radius: 10px;
-    padding: 27px 31px 18px 30px;
+    padding: 10px 31px 18px 30px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    transition: 0.5s all ease-in-out;
+    margin-top:40px;
+    height:450px;
   }
-  .screenshot20220403At4521 {
+
+  .product:hover {
+    /* transition: transform .5s ease; */
+    background-color: #F9D489;
+  }
+
+  .product-img {
     width: 174px;
-    height: 250px;
-    margin-bottom: 31px;
-    margin-left: 33px;
+    height: 100%;
+    margin-bottom: 15px;
+    margin-left: 23px;
+    object-fit: cover;
+   
   }
   .optimumNutritionOnGoldStandard100 {
-    max-width: 239px;
+    /* max-width: 239px; */
+    width:100% !important;
     font-family: "Poppins";
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 21px;
     color: rgba(0, 0, 0, 1);
@@ -30,12 +42,11 @@
     margin-bottom: 27px;
   }
   .flex-wrapper {
-    margin-bottom: 5px;
     display: flex;
     align-items: flex-start;
   }
   .mrp2999 {
-    margin-right: 6px;
+   
     font-family: "Poppins";
     font-size: 14px;
     font-weight: 400;
@@ -43,6 +54,7 @@
     color: rgba(0, 0, 0, 0.6);
   }
   .num50Off {
+    width: 100% !important;
     font-family: "Poppins";
     font-size: 14px;
     font-weight: 500;
@@ -55,7 +67,42 @@
     font-weight: 500;
     line-height:32px;
     color: black;
+    margin-top:-25px;
   }
+.add-to-cart{
+  border: 2px solid #000000;
+  width: 220px;
+height: 42px;
+border-radius: 2px;
+margin:auto;
+margin-top: 0px !important;
+cursor:pointer;
+padding-bottom: 20px;
+
+}
+
+.add-to-cart:hover{
+   background-color: black;
+   color:white !important;
+}
+
+.add-to-cart-text{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+}
+
+.flex-wrapper-2{
+  position:relative;
+  bottom: 34px;
+  right:40px;
+  margin-bottom: -15px;
+}
+
+/* .add-to-cart-text:hover{
+  color:white;
+} */
 
   @media only screen and (max-width: 500px){
 .product {
@@ -63,16 +110,16 @@
   border-radius: 6px;
   padding: 15.28px 17px 16.97px 16.98px;
   width:160px;
-  max-height:330px;
+  height:auto;
   display: flex;
-  flex-direction: column;
+ 
   align-items: flex-start;
 }
-.screenshot20220403At4521 {
-  width: 98.46px;
+.product-img {
+  width: 108.46px;
   height: 141.47px;
   margin-bottom: 17.54px;
-  margin-left: 18.67px;
+  margin-left: 8.67px;
 }
 .optimumNutritionOnGoldStandard100 {
   /* max-width: 135.24px; */
@@ -93,24 +140,34 @@
   margin-bottom: 15.46px;
 }
 .flex-wrapper {
-  margin-bottom: 3.02px;
-  display: flex;
+  margin-bottom:-13px !important;
+  /* display: flex;
+  align-items: flex-start; */
+  /* display: flex;
   align-items: flex-start;
+  flex-direction: row; */
 }
 .mrp2999 {
-  margin-right: 3.4px;
+  /* margin-right: 3.4px; */
+  width:100px;
   font-family: "Poppins";
   font-size: 8px;
   font-weight: 400;
   line-height: 10px;
   color: rgba(0, 0, 0, 0.6);
 }
+.flex-wrapper-2{
+  position: relative;
+  bottom:22px;
+  right:20px;
+}
 .num50Off {
   font-family: "Poppins";
-  font-size: 8px;
+  font-size: 8px !important;
   font-weight: 500;
   line-height: 10px;
   color: rgba(73, 165, 66, 1);
+  width: 100% !important
 }
 .num1499 {
   font-family: "Poppins";
@@ -118,6 +175,24 @@
   font-weight: 500;
   line-height: 18px;
   color: rgba(0, 0, 0, 1);
-  margin-bottom: 13.69px;
+  margin-bottom: 20.69px;
+  position:relative;
+  top:20px;
+
 }
-  }
+.add-to-cart{
+  border: 2px solid #000000;
+  width: 125px;
+height: 23px;
+border-radius: 2px;
+margin:auto;
+margin-top: 5px !important;
+cursor:pointer;
+padding:auto;
+}
+.add-to-cart-text{
+  font-size: 10px;
+position:relative;
+bottom:5px;
+}
+}

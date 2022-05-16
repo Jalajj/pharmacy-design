@@ -53,9 +53,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-right:30px;
-    height:150px;
-    width:150px;
+    margin-right:32px;
+    height:154px;
+    width:160px;
 }
 
 .box-img{ 
@@ -75,6 +75,7 @@
     text-align: center;
 }
 
+
 @media only screen and (max-width: 450px){
   .left-container{
     margin:auto;
@@ -90,10 +91,15 @@
   }
  .search-home{
    width:95%;
-   border-radius: 300px;
+   border-radius: 300px !important;
    height:50px;
    margin-top:30px !important;
    margin-left:10px;
+   margin:auto;
+   padding-bottom: 10px;
+ }
+ .search-img{ 
+   margin-bottom: 10px !important;
  }
  .card-container{
   width:90px;

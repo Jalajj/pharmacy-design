@@ -1,0 +1,90 @@
+.modalBody {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    padding: 60px 64.24px 71px 70.24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .flexWrapperThree-modal {
+    margin-bottom: 48px;
+    padding: 0 0 0 37.76px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .rectangle70-modal {
+    width: 14.86%;
+    align-self: stretch;
+    margin-right: 20px;
+    object-fit: cover;
+  }
+  .uploadPrescription-modal {
+    width: 91.74%;
+    height: 80%;
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 1);
+  }
+  .flexWrapperOne-modal {
+    border-radius: 24px;
+    padding: 60.84px 152.41px 59px 157.11px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 4px solid rgba(0, 0, 0, 0.09);
+  }
+  .dragAndDropTheFileHere-modal {
+    height: 23.82%;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(0, 0, 0, 1);
+    align-self: stretch;
+    margin-bottom: 15.08px;
+  }
+  .flexWrapperFour-modal {
+    margin-bottom: 27.08px !important;
+    position: relative;
+    right:10px;
+    
+    
+  }
+  .rectangle167-modal {
+    width: 45.21%;
+    height: 8.17%;
+    background-color: rgba(236, 236, 236, 1);
+    border-radius: 20px;
+    margin-right: 9.82px;
+  }
+  .or-modal {
+    max-width: 16px;
+    width: 5.58%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(0, 0, 0, 1);
+    align-self: stretch;
+    margin-right: 7.57px;
+  }
+  .flexWrapperTwo-modal {
+    background-color: rgba(0, 0, 0, 1);
+    margin-left: 5.65px;
+    border-radius: 4px;
+    padding: 13px 69px 13px 70px;
+    display: flex;
+    align-items: center;
+  }
+  .selectFromYourDevice-modal {
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: normal;
+    color: rgba(255, 255, 255, 1);
+    flex: 1;
+    align-self: stretch;
+  }
+ 

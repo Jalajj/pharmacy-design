@@ -1,0 +1,21 @@
+.btn-cart{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 130%;
+/* or 18px */
+color: #000000;
+text-align: center;
+margin-top:10px;
+}
+
+.btn-cart-2{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 130%;
+text-align: center;
+margin-top: 10px;
+}

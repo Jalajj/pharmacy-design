@@ -2,34 +2,36 @@ import React from 'react'
 import Search from '../../mobile/components/Search/Search'
 import './leftview.css'
 import { useGlobalContext } from './../../context/index';
+import paper from '../../assets/paper.png';
+import person from '../../assets/person.png';
 
-export const LandingCards = () => {
+export const LandingCards = ({cardContainer, cardImg, cardDesc}) => {
   const {mobileScreen} = useGlobalContext();
   return (
-    <div className='row mt-4' style={mobileScreen ? {marginLeft:'2%',display:'grid', gridTemplateColumns:'repeat(3, 1fr)'} : {marginLeft:'5%'}}>
-    <div className='col-md-4 card-container'>
+    <div className={`row mt-4`} style={mobileScreen ? {marginLeft:'2%',display:'grid', gridTemplateColumns:'repeat(3, 1fr)'} : {marginLeft:'1%'}}>
+    <div className={`col-md-4 ${cardContainer ? cardContainer : 'card-container'}`}>
     <img
         alt="box"
-        className='box-img m-auto'
-        src="https://static.overlay-tech.com/assets/99486dba-4b4f-4ae2-a418-1935165026ca.png"
+        className={` ${cardImg ? cardImg : 'box-img m-auto'}`}
+        src={paper}
       />
-      <p className='box-desc '>View all Medications</p>
+      <p className={` ${cardDesc ? cardDesc : 'box-desc'}`}>Upload the Prescription</p>
     </div>
-    <div className='col-md-4 card-container'>
+    <div className={`col-md-4 ${cardContainer ? cardContainer : 'card-container'}`}>
     <img
         alt="box"
-        className='box-img m-auto'
-        src="https://static.overlay-tech.com/assets/99486dba-4b4f-4ae2-a418-1935165026ca.png"
+        className={` ${cardImg ? cardImg : 'box-img m-auto'}`}
+        src={person}
       />
-      <p className='box-desc'>View all Medications</p>
+      <p className={` ${cardDesc ? cardDesc : 'box-desc'}`}>Call the pharmastic</p>
     </div>
-    <div className='col-md-4 card-container'>
+    <div className={`col-md-4 ${cardContainer ? cardContainer : 'card-container'}`}>
     <img
         alt="box"
-        className='box-img m-auto'
+        className={` ${cardImg ? cardImg : 'box-img m-auto'}`}
         src="https://static.overlay-tech.com/assets/99486dba-4b4f-4ae2-a418-1935165026ca.png"
       />
-      <p className='box-desc'>View all Medications</p>
+      <p className={` ${cardDesc ? cardDesc : 'box-desc'}`}>View all Medications</p>
     </div>
     </div>
   )
@@ -44,7 +46,7 @@ function LeftView() {
              <h1 className='home-title'>Huge drug savings.</h1>
         </div>
        {mobileScreen ?
-       <Search containerClass={'search-home'} label={'Search by topic'} />
+       <Search containerClass={'search-home'} label={'Search by topic'} searchClass='search-img' />
        :
         <div className='search-input'>
             <input className='search' placeholder='Search. We have everything' />

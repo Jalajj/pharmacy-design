@@ -24,7 +24,7 @@ const LeftView = ({btn}) => {
       >
         A best place to find every medince at its best price{" "}
       </p>
-      <input defaultValue={'Your Name'} className='yourName' style={{borderColor:'transparent',borderBottom:'3px solid black'}}></input>
+      <input placeholder={'Your Name'} className='yourName' style={{borderColor:'transparent',borderBottom:'3px solid black'}}></input>
       <div className={'rectangle62'} />
       <div className={'flexWrapperTwo'}>
         <p className={'createAccount m-auto'}>

@@ -6,27 +6,27 @@ function MedList() {
     <p
       className={'allMedicationsAcidRefluxAllergiesAn'}
     >
-      All Medications
+      <span className='item'>All Medications</span>
       <br />
-      Acid Reflux
+      <span  className='item'>Acid Reflux</span>
       <br />
-      Allergies
+      <span  className='item'>Allergies</span>
       <br />
-      Angina
+      <span  className='item'> Angina</span>
       <br />
-      Anti-Parasitic
+      <span  className='item'>Anti-Parasitic</span>
       <br />
-      Asthma/COPD
+      <span  className='item'>Asthma/COPD</span>
       <br />
-      Birth Control
+      <span  className='item'>Birth Control</span>
       <br />
-      Blood Thinner
+      <span  className='item'>Blood Thinner</span>
       <br />
-      Bone Health
+      <span  className='item'>Bone Health</span>
       <br />
-      Cancer
+      <span  className='item'>Cancer</span>
       <br />
-      Cough
+      <span  className='item'>Cough</span>
     </p>
   )
 }

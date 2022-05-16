@@ -3,7 +3,7 @@ import './resp-nav.css'
 
 const MobileNav = () => {
   return (
-    <div className={'mobileNav m-auto'}>
+    <div className={'mobileNav'}>
       <img
         alt=""
         className={'alignLeft-mobile'}

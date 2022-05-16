@@ -1,24 +1,49 @@
 .product-landing{
-  
-  margin-top: 100px;
+  margin-top: 80px;
+}
+.component2-view {
+ display: flex;
+ align-items: flex-start;
+ margin-left: 80px;
+ margin-bottom: 30px;
+}
+.allMedications-view {
+  width: 154px;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  color: rgba(248, 168, 0, 1);
+  align-self: stretch;
+  margin-right: 10px;
+}
+.chevronRight-view {
+  /* width: calc(8.36% - 18px);
+  height: calc(92.31% - 12px); */
+  /* position: relative;
+  right:600px; */
+  width:auto;
+  height:auto;
+  margin-right: 10px;
+  padding: 6px 9px;
+  display: flex;
+  align-items: center;
+}
+.vector-view {
 
+  align-self: stretch;
+  object-fit: cover;
+}
+.dolo650-view {
+  width: 30.01%;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  color: rgba(33, 32, 33, 1);
+  align-self: stretch;
 }
 
-.productCount {
-    background-color: rgba(0, 0, 0, 1);
-    border-radius: 5px;
-    padding: 19px 8px 19px 12px;
-    display: flex;
-    align-items: center;
-  }
-  .relativeWrapperOne {
-    width: 28.04%;
-    height: 96.77%;
-    position: relative;
- 
-      margin-right: 11px;
-    
-  }
   .hyphen {
     width: 50%;
     height: 103.33%;
@@ -47,5 +72,21 @@
     color: white;
     align-self: stretch;
     margin-right: 12px;
+  position:relative;
+  bottom:4px;
   }
-   
+
+
+   @media only screen and (max-width: 500px){
+    .component2-view{
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 130%;
+      margin:auto;
+      margin-bottom:10px;
+      /* identical to box height, or 26px */
+      color: #F8A800;
+    }
+   }

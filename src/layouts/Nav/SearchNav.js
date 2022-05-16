@@ -1,5 +1,6 @@
 import React from "react";
 import "./search-nav.css";
+import search from '../../assets/search.png'
 
 const SearchNav = () => {
   return (
@@ -12,15 +13,15 @@ const SearchNav = () => {
         />
       </div>
       <div className={'flexWrapperTwo-nav'}>
-        {/* <div className={'search-nav'}> */}
+        <div className={'search-nav'}>
           {/* <div className={'vector-nav'} /> */}
           {/* <img
             alt=""
             className={'vectorTwo-nav'}
             src="https://static.overlay-tech.com/assets/74d27dc3-3614-4164-a1a4-05dc4ee23638.svg"
           /> */}
-          
-        {/* </div> */}
+          <img src={search} alt='search' style={{marginRight:30}} />
+        </div>
         <input placeholder='Search, we got you everything required'
          className='searchWeHaveEverything-nav' 
          style={{border:'none'}}

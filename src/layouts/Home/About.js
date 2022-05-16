@@ -1,26 +1,10 @@
 import React from 'react'
 import './about.css'
 import { useGlobalContext } from './../../context/index';
+import dollarhand from '../../assets/dollarhand.png';
+import abcd from '../../assets/abcd.png';
+import truck from '../../assets/truck.png';
 
-const CardAbout = () => {
-    return (
-<div className={'flexWrapperFour'}>
-          <img
-            alt=""
-            className={'rectangle16'}
-            src="https://static.overlay-tech.com/assets/23e6e929-94d9-48d0-a90f-f4917b15b24f.png"
-          />
-          <p className={'offlinePickup'}>
-            Offline Pickup
-          </p>
-          <p
-            className={'getTheBestPricesInTheWholeOfDelhThree'}
-          >
-            Get the best prices in the whole of Delhi
-          </p>
-        </div>
-    )
-}
 
 
 function About() {
@@ -55,16 +39,76 @@ function About() {
             <div className='col-md-5 card-about'>
             <div className='row'  style={mobileScreen ? {display:'grid', gridTemplateColumns:'repeat(2, 1fr)'} : null}>
                 <div className='col-md-6 col-sm-3'>
-                 <CardAbout />
+                 {/* <CardAbout /> */}
+                 <div className={'flexWrapperFour flexWrapper-about1'}>
+          <img
+            alt=""
+            className='rectangle16'
+            src={dollarhand}
+          />
+          <p className={'offlinePickup'}>
+            Low Prices
+          </p>
+          <p
+            className={'getTheBestPricesInTheWholeOfDelhThree'}
+          >
+            Get the best prices in the whole of Delhi
+          </p>
+        </div>
                 </div>
                 <div className='col-md-6  col-sm-3'>
-                 <CardAbout />
+                 {/* <CardAbout /> */}
+                 <div className={'flexWrapperFour flexWrapper-about2'}>
+          <img
+            alt=""
+            className={'rectangle16'}
+            src={abcd}
+          />
+          <p className={'offlinePickup'}>
+           Alternatives
+          </p>
+          <p
+            className={'getTheBestPricesInTheWholeOfDelhThree'}
+          >
+            Get the best prices in the whole of Delhi
+          </p>
+        </div>
                 </div>
                 <div className='col-md-6 mt-4  col-sm-3'>
-                 <CardAbout />
+                 {/* <CardAbout /> */}
+                 <div className={'flexWrapperFour flexWrapper-about3'}>
+          <img
+            alt=""
+            className={'rectangle16'}
+            src={truck}
+          />
+          <p className={'offlinePickup'}>
+           Fast Delivery
+          </p>
+          <p
+            className={'getTheBestPricesInTheWholeOfDelhThree'}
+          >
+            Get the best prices in the whole of Delhi
+          </p>
+        </div>
                 </div>
                 <div className='col-md-6 mt-4  col-sm-3'>
-                 <CardAbout />
+                 {/* <CardAbout /> */}
+                 <div className={'flexWrapperFour flexWrapper-about4'}>
+          <img
+            alt=""
+            className={'rectangle16'}
+            src="https://static.overlay-tech.com/assets/23e6e929-94d9-48d0-a90f-f4917b15b24f.png"
+          />
+          <p className={'offlinePickup'}>
+            Offline Pickup
+          </p>
+          <p
+            className={'getTheBestPricesInTheWholeOfDelhThree'}
+          >
+            Get the best prices in the whole of Delhi
+          </p>
+        </div>
                 </div>
             </div>
          

@@ -16,18 +16,29 @@
     /* margin-right: 400px; */
   }
   .price {
-    width: 4.12%;
+    width: 4%;
     height: 91.3%;
     font-family: "Poppins";
     font-size: 16px;
     font-weight: 500;
     line-height: 21px;
     color: rgba(0, 0, 0, 1);
-   
-       margin-right: 164px; 
     
   }
+  @media (min-width: 1400px) and (max-width: 1500px){
+       .price2{
+        position:relative;
+        right:130px !important;
+        margin-right: 0 !important;
+       }
+       .num115{
+         margin-left:40px;
+       }
+  }
+
   .sugamAushadhiMedicine {
+    position: relative;
+    left:180px;
     width: 100%;
     height: 91.3%;
     font-family: "Poppins";
@@ -35,7 +46,7 @@
     font-weight: 500;
     line-height: 21px;
     color: rgba(0, 0, 0, 1);
-    margin-right: 89px;
+    margin-right: 8px;
   }
 .total-title{
   font-family: "Poppins";
@@ -43,7 +54,7 @@
   font-weight: 500;
   line-height: 21px;
   color: rgba(0, 0, 0, 1);
-  margin-left: 20%;
+  margin-left: 10%;
 }
 .totalTwo {
   display: flex;
@@ -57,7 +68,8 @@
   line-height: 32px;
   color: rgba(0, 0, 0, 1);
   align-self: stretch;
-  margin-right: 86px;
+  margin-right: 0px;
+  
 }
 .num38014 {
   width: 13.4%;
@@ -69,6 +81,7 @@
   align-self: stretch;
   text-decoration: line-through;
   margin-right: 15px;
+  
 }
 .num315 {
   width: 7.9%;
@@ -79,6 +92,7 @@
   color: rgba(73, 165, 66, 1);
   align-self: stretch;
   margin-right: 344px;
+ 
 }
 .num115 {
   width: 7.05%;
@@ -88,17 +102,19 @@
   line-height: 32px;
   color: rgba(73, 165, 66, 1);
   align-self: stretch;
+  padding-left: 40px;
 }
 .ctaCompare {
   display: flex;
   align-items: flex-start;
 }
 .compare-cta {
-  margin-right: 225px;
+  margin-right: 125px;
   padding: 15px 63px 15px 69px;
   display: flex;
   align-items: center;
   border: 2px solid rgba(0, 0, 0, 1);
+  cursor: pointer;
 }
 .addMyMedicinesToCart {
   font-family: "Poppins";
@@ -109,8 +125,11 @@
   flex: 1;
   align-self: stretch;
 }
+
 .flexWrapperTwo-compare-cta {
   padding: 15px 60px 15px 61px;
+  cursor: pointer;
+  
   display: flex;
   align-items: center;
   border: 2px solid rgba(0, 0, 0, 1);

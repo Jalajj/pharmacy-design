@@ -4,6 +4,7 @@ import './cta.css'
 import { useGlobalContext } from '../../context'
 import Search from '../../mobile/components/Search/Search';
 
+
 function CTA() {
   const {mobileScreen} = useGlobalContext();
   return (
@@ -12,8 +13,8 @@ function CTA() {
         {mobileScreen ? <Search containerClass={'search-home'} label={'Search by topic'} /> : <div className='search-input-cta' style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
             <input className='search-cta' placeholder='Search. We have everything' />
         </div>}
-        <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
-        <LandingCards />
+        <div style={mobileScreen ? {display:'flex', justifyContent:'center', alignItems:'center', marginTop:'-3%'} : {display:'flex', justifyContent:'center', alignItems:'center', marginTop:'-3%', marginLeft:'-100px'} }>
+        <LandingCards cardContainer={'cta-card'} cardImg={'cta-card-img'} cardDesc={'cta-card-desc'}  />
         </div>
       
     </div>

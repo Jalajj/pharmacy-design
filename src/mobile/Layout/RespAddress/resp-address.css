@@ -1,0 +1,230 @@
+.respAddress {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .respInfo {
+    margin-bottom: 29.53px;
+    align-self: stretch;
+  }
+  .flexWrapperTwo-resp-address {
+    /* width: 335.66px; */
+    width: 100%;
+height: 50px;
+    background: linear-gradient(
+        rgba(255, 255, 255, 1),
+        rgba(255, 255, 255, 1)
+      ),
+      rgba(255, 255, 255, 1);
+    margin-bottom: 13.11px;
+    border-radius: 7px;
+    padding: 10.07px 150.63px 1.79px 13.43px;
+    display: flex;
+    
+    align-items: flex-start;
+  }
+  .flexWrapperThree-resp-address {
+    margin-top:5px;
+    background-color: rgba(0, 0, 0, 1);
+    margin-right: 19.46px;
+    border-radius: 50%;
+    padding: 6.36px 10.1px 5.78px 10.04px;
+ 
+   display: flex;
+    align-items: center;
+  }
+  .b {
+    width: 100%;
+    font-family: "Montserrat";
+    font-size: 11px;
+    font-weight: 600;
+    line-height: normal;
+    color: rgba(255, 255, 255, 1);
+    align-self: stretch;
+  }
+  .shippingAddress-resp-address {
+    margin-top:10px !important;
+    width: 71.43%;
+    height: 54.62%;
+    font-family: "Montserrat";
+    font-size: 9px;
+    font-weight: 600;
+    line-height: normal;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 4.7px;
+  }
+  .patientName-resp-address {
+    width: 22.85%;
+    height: 1.84%;
+    font-family: "Montserrat";
+    font-size: 11px;
+    font-weight: 600;
+    line-height: normal;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 6.46px;
+    margin-left: 4.7px;
+  }
+  .flexWrapperEight-resp-address {
+    
+    margin-bottom: 14.4px;
+    border-radius: 6px;
+    padding: 11.09px 100.87px 10.91px 17.13px;
+    width: 100% !important;
+height: 50px !important;
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid rgba(230, 230, 230, 1);
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 600;
+    line-height: normal;
+    color: rgba(0, 0, 0, 1);
+  }
+  /* .nevaidAggarwal-resp-address {
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 600;
+    line-height: normal;
+    color: rgba(0, 0, 0, 1);
+    flex: 1;
+    align-self: stretch;
+  } */
+  .address-resp-address {
+    width: 14.84%;
+    height: 1.84%;
+    font-family: "Montserrat";
+    font-size: 11px;
+    font-weight: 600;
+    line-height: normal;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 6.46px;
+    margin-left: 4.7px;
+  }
+  .rectangle79-resp-address{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 17.07px;
+    border: 1px solid rgba(230, 230, 230, 1);
+    border-radius: 6px;
+  }
+  .landMark-resp-address {
+    width: 90.51%;
+    height: 1.84%;
+    font-family: "Montserrat";
+    font-size: 11px;
+    font-weight: 600;
+    line-height: normal;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 6.46px;
+  }
+  .rectangle83-resp-address {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25.12px;
+    border: 1px solid rgba(230, 230, 230, 1);
+    border-radius: 6px;
+  }
+  .city-resp-address {
+    width: 8.01%;
+    height: 1.84%;
+    font-family: "Montserrat";
+    font-size: 11px;
+    font-weight: 600;
+    line-height: normal;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 6.47px;
+    margin-left: 4.7px;
+  }
+  .postalCode-resp-address {
+    width: 21.07%;
+    height: 1.84%;
+    font-family: "Montserrat";
+    font-size: 11px;
+    font-weight: 600;
+    line-height: normal;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 6.46px;
+    margin-left: 4.7px;
+  }
+  .rectangle82-resp-address {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15.12px;
+    border: 1px solid rgba(230, 230, 230, 1);
+    border-radius: 6px;
+  }
+  .flexWrapperFour-resp-address {
+    background: linear-gradient(
+        rgba(255, 255, 255, 1),
+        rgba(255, 255, 255, 1)
+      ),
+      rgba(255, 255, 255, 1);
+    margin-bottom: 15.72px;
+    border-radius: 7px;
+    padding: 12.8px 80px 13.2px 13px;
+    display: flex;
+    align-items: center;
+    width:100%;
+  }
+  .flexWrapperFive-resp-address {
+    background-color: rgba(0, 0, 0, 1);
+    margin-right: 20px;
+    border-radius: 50%;
+    padding: 3px 7.8px 6px 7.2px;
+    display: flex;
+    align-items: flex-start;
+
+  }
+  .c {
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+    color: rgba(255, 255, 255, 1);
+    flex: 1;
+    align-self: stretch;
+    position:relative;
+    top:2px;
+  }
+  .uploadPrescription-resp-address {
+    width: 200px;
+    height: 62.5%;
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+    color: rgba(0, 0, 0, 0.5);
+}
+.flexWrapperSix-resp-address{
+  background: linear-gradient(
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 1)
+    ),
+    rgba(255, 255, 255, 1);
+  border-radius: 7px;
+  padding: 11.79px 100px 14.21px 13px;
+  display: flex;
+  align-items: flex-start;
+ 
+  width: 100%;
+}
+.flexWrapperSeven-resp-address {
+  background-color: rgba(0, 0, 0, 1);
+  margin-right: 16px;
+  border-radius: 50%;
+  padding: 4px 7px 5px;
+  display: flex;
+  align-items: center;
+}
+.paymentMethod-resp-address {
+  
+  width: 100%;
+  height: 62.5%;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: normal;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 5px;
+}
+  

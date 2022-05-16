@@ -1,0 +1,262 @@
+.respFooter {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 51px 115px 62px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .comeShopOffline-resp {
+    width:100%;
+    height: 2.93%;
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 38px;
+  }
+  .relativeWrapperOne-resp {
+    width: 56.72%;
+    height: 16.21%;
+    margin-bottom: 63px;
+    position: relative;
+  }
+  .rectangle33-resp {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),
+      url("https://static.overlay-tech.com/assets/6bc9ea48-fc75-486e-9431-f6bd3b3e430f.png");
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 2px;
+    position: relative;
+  }
+  .rectangle34-resp {
+    width: 48.03%;
+    height: 100%;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),
+      url("https://static.overlay-tech.com/assets/71d198b5-1c9d-4fd6-940c-6dfc0994b2df.png");
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 2px;
+    position: absolute;
+    right: -89px;
+    top: 0;
+  }
+  .rectangle35-resp {
+    width: 48.03%;
+    height: 100%;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),
+      url("https://static.overlay-tech.com/assets/5cf4cef1-ccd3-484e-a315-064c54850026.png");
+    background-size: 100% 100%;
+    background-position: center;
+    border-radius: 2px;
+    position: absolute;
+    right: -180px;
+    top: 0;
+  }
+  .connaughtPlace-resp {
+    height: 14.69%;
+    width: 95.39%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    text-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
+    position: absolute;
+    right: -102px;
+    top: 17px;
+  }
+  .patelNagar-resp{
+    height: 14.12%;
+    width: 63.16%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    text-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
+    position: absolute;
+    right: -146px;
+    top: 66px;
+  }
+  .rajpathArea-resp {
+    height: 14.12%;
+    width: 69.74%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    text-shadow: 0 4px 4px rgba(255, 255, 255, 0.25);
+    position: absolute;
+    right: -249px;
+    top: 56px;
+  }
+  .checkOut-resp {
+    width: 80.76%;
+    height: 2.93%;
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 28px;
+  }
+  .blogs-resp {
+    width: 17.16%;
+    height: 2.01%;
+    font-family: "Poppins";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 11px;
+  }
+  .allMedications-resp {
+    width: 80.13%;
+    height: 2.01%;
+    font-family: "Poppins";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 11px;
+  }
+  .specialOffers-resp {
+    width: 80.03%;
+    height: 2.01%;
+    font-family: "Poppins";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 61px;
+  }
+  .wereOnline-resp {
+    width: 100%;
+    height: 2.93%;
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 31px;
+  }
+  .facebook-resp {
+    width: 30.97%;
+    height: 2.01%;
+    font-family: "Poppins";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 11px;
+  }
+  .instagram-resp{
+    width: 33.21%;
+    height: 2.01%;
+    font-family: "Poppins";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 11px;
+  }
+  .twitter-resp {
+    width: 21.27%;
+    height: 2.01%;
+    font-family: "Poppins";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 61px;
+  }
+  .shopOnApp-resp {
+    width: 100%;
+    height: 2.93%;
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 31px;
+  }
+  .appStore-resp {
+    width: 67.16%;
+    height: 4.76%;
+    margin-bottom: 17px;
+  }
+  .frame20-resp {
+    width: calc(67.16% - 36px);
+    height: calc(4.76% - 10.4px);
+    margin-bottom: 52px;
+    margin-left: 1px;
+    padding: 0 36px 10.4px 0;
+    display: flex;
+    align-items: flex-start;
+  }
+  .googlePlay-resp {
+    flex: 1;
+    align-self: stretch;
+  }
+  .termsAndConditions-resp{
+    width: 90.21%;
+    height: 1.65%;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 18px;
+    margin-left: 1px;
+  }
+  .privacyPolicy-resp {
+    width: 90.19%;
+    height: 1.65%;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 25px;
+    margin-left: 1px;
+  }
+  .copyright2022SugamAushadhiPvtLtd-resp{
+    width: 99.25%;
+    height: 4.21%;
+    margin-left: 2px;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 1);
+  }
+  .copyright2022SugamAushadhiPvtLtdEmphasis1-resp {
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 1);
+  }
+  .copyright2022SugamAushadhiPvtLtdEmphasis3-resp {
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 1);
+  }

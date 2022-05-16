@@ -1,14 +1,17 @@
 import React from "react";
 import './productinfo.css'
+import { useGlobalContext } from './../../context/index';
+
 
 const ProductPageInfo = () => {
+  const {mobileScreen} = useGlobalContext()
   return (
     <div className={'productPageInfo'}>
-      <div className={'flexWrapperOne-info'}>
+     {mobileScreen ? null : <div className={'flexWrapperOne-info'}>
         <p className={'prescriptionRequired m-auto'}>
           Prescription Required
         </p>
-      </div>
+      </div>}
       <div className={'flexWrapperTwo-info'}>
         <p
           className={
@@ -58,9 +61,8 @@ const ProductPageInfo = () => {
         </strong>{" "}
         Paracetamol (650mg)
       </p>
-    
+       <p style={mobileScreen ? null : { position:'relative', top:40,left:40}} className='mrp-info'>MRP <span style={{textDecoration:'line-through'}}>49.99</span></p>
       <p className={'num50Off'}>50% off</p>
-     
       <p className={'ourPrice25'}>Our Price ₹25</p>
     </div>
   );

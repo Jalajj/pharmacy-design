@@ -1,0 +1,48 @@
+.uploading {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 60px 64.24px 71px 70.24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .flexWrapperTwo-uploading {
+    margin-bottom: 48px;
+    padding: 0 0 0 37.76px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .rectangle70-uploading {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+  }
+  .prescriptionUploaded-uploading {
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 32px;
+    color: rgba(0, 0, 0, 1);
+  }
+  .flexWrapperOne-uploading{
+    border-radius: 24px;
+    padding: 58px 65.76px 85.61px 53.76px;
+    display: flex;
+    align-items: flex-start;
+    border: 4px solid rgba(73, 165, 66, 1);
+  }
+  .group5-uploading {
+    width: 96.57px;
+    height: 127.39px;
+    margin-right: 64.43px;
+    object-fit: cover;
+  }
+  .receivedYourPrescriptionWeWillAdd-uploading {
+    max-width: 352px;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 33px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 13px;
+  }
+ 

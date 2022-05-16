@@ -8,9 +8,9 @@ function ProductLayout({supplement}) {
   const {mobileScreen} = useGlobalContext();
 
   return (
-    <div className='container' style={{marginTop:'100px'}}>
+    <div className='container' style={supplement ? {marginTop:'70px'} : {marginTop:'100px'}}>
        {supplement ? null : <div className='title-container'>
-       <h1 className='product-home-title'>Top offers only for <span style={{color:'#49A542'}}>Today </span>
+       <h1 className='product-home-title'>Top offers only for <span style={{color:'#49A542'}}>Today</span>
        {/* <hr style={{borderBottom: '4px solid #49A542'}} /> */}
         </h1>
        </div>}
@@ -18,8 +18,8 @@ function ProductLayout({supplement}) {
       <div className='row' style={mobileScreen ? {display:'grid', gridTemplateColumns:'repeat(2, 1fr)'} : null}>
         {productData.map((product,i) => {
           return (
-            <div className='col-md-3 mt-4' key={i} >
-            <Product  name={product.name} mrp={product.mrp} price={product.price} category={product.category} />
+            <div className='col-md-3 ' key={i} >
+            <Product name={product.name} mrp={product.mrp} productImg={product.src} price={product.price} category={product.category} />
             </div>
           )
         })}

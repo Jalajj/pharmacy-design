@@ -33,8 +33,9 @@ const CompareProduct = () => {
           </p>
         </div>
         <p className={'num43Two'}>$43</p>
+        <p className={'delete'}>Delete</p>
       </div>
-      <p className={'delete'}>Delete</p>
+      
     </div>
   );
 };

@@ -1,0 +1,128 @@
+.respMedicineList {
+    padding: 0 0 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px solid rgba(179, 179, 179, 1);
+  }
+  .acidReflux {
+    width: 27.33%;
+    height: 4.05%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 17px;
+    margin-left: 30px;
+  }
+  .rectangle260 {
+    height: 0.16%;
+    /* background-color: rgba(179, 179, 179, 1); */
+    margin-bottom: 17px;
+    align-self: stretch;
+  }
+  .alcoholDependence {
+    width: 52.17%;
+    height: 4.05%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 17px;
+    margin-left: 30px;
+  }
+  .allergies {
+    width: 21.74%;
+    height: 4.05%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 17px;
+    margin-left: 30px;
+  }
+  .angina {
+    width: 18.01%;
+    height: 4.05%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 17px;
+    margin-left: 30px;
+  }
+  .antiFungal {
+    width: 29.19%;
+    height: 4.05%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 17px;
+    margin-left: 30px;
+  }
+  .antiParasitic {
+    width: 34.47%;
+    height: 4.05%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 17px;
+    margin-left: 30px;
+  }
+  .rectangle265 {
+    height: 0.16%;
+    background-color: rgba(179, 179, 179, 1);
+    margin-bottom: 23px;
+    align-self: stretch;
+  }
+  .asthmaCopd {
+    width: 36.65%;
+    height: 4.05%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 17px;
+    margin-left: 30px;
+  }
+  .birthControl {
+    width: 31.37%;
+    height: 4.05%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 17px;
+    margin-left: 30px;
+  }
+  .boneHealth {
+    width: 30.43%;
+    height: 4.05%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 17px;
+    margin-left: 30px;
+  }
+  .highCholesterol {
+    width: 41.3%;
+    height: 4.05%;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 1);
+    margin-left: 30px;
+  }

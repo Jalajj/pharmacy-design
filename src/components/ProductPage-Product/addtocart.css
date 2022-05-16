@@ -1,0 +1,104 @@
+.flexWrapperThree-product-page {
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 3px;
+    height:68px;
+    width:282px;
+    padding: 10.62px 60.79px 1.55px 60.04px;
+    display: flex;
+    margin:auto;
+    align-items: center;
+     position: relative;
+     left:10px;
+   }
+
+   .submit-cta-product{
+    width: 100%;
+    font-family: "Poppins";
+    font-size: 24px;
+ 
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+    align-self: stretch;
+    margin-top: 10px;
+   }
+   .relativeWrapperOne {
+    width: 28.04%;
+    height: 96.77%;
+    position: relative;
+ 
+      margin-right: 11px;
+    
+  }
+  .productCount {
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 5px;
+    padding: 19px 15px 19px 15px;
+    display: flex;
+    align-items: center;
+    
+  }
+
+  @media only screen and (max-width: 500px){
+    .add-to-cart-container{
+      margin-left:0px !important;
+      margin:auto;
+      margin-top: 20px !important;
+    }
+      .flexWrapperThree-product-page{
+          width:220px !important;
+          height:50px !important;
+          margin-right:0px !important;
+          padding: 5.62px 20.79px 2.55px 40.04px;
+          left:60px;
+      }
+      .productCount{
+          width:110px !important;
+        
+          height:50px !important;
+          position:relative;
+          bottom:67px;
+          left:280px;
+          margin-bottom: -30px !important;
+      }
+      .relativeWrapperOne{
+        position:relative;
+        bottom:10px;
+      }
+      .num01{
+        margin-top: -5px;
+      }
+     
+  }
+  
+  @media (min-width: 410px) and (max-width: 500px){
+    .flexWrapperThree-product-page{
+      width:220px !important;
+      height:50px !important;
+      margin-right:0px !important;
+     
+      left:140px;
+      margin-bottom: 30px !important;
+      margin-top: -20px !important;
+  }
+  .productCount{
+    width:110px !important;
+  
+    height:50px !important;
+    position:relative;
+    bottom:35px;
+    left:170px;
+    margin-bottom: -30px !important;
+}
+  }
+
+  @media only screen and (max-width: 380px){
+    .flexWrapperThree-product-page{
+     width:200px !important;
+    }
+    .productCount{
+      width: 100px !important;
+      /* position: relative;
+      right:90px !important; */
+      margin-right:112px !important;
+    }
+  }

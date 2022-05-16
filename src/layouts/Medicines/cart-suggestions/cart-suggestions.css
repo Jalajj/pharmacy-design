@@ -6,7 +6,7 @@
 .suggestionHeader {
     background-color: rgba(222, 240, 248, 1);
     border-radius: 5px 5px 0px 0px;
-    padding: 33px 295px 24px 34px;
+    padding: 33px 115px 24px 34px;
     display: flex;
     align-items: flex-start;
   }
@@ -18,7 +18,7 @@
     line-height: 23px;
     color: rgba(0, 0, 0, 1);
     align-self: stretch;
-    margin-right: 175px;
+    margin-right: 155px;
   }
   .manufacturer {
     width: 11.92%;
@@ -28,7 +28,8 @@
     font-weight: 500;
     line-height: 21px;
     color: rgba(0, 0, 0, 1);
-    margin-right: 114px;
+    margin-right: 100px;
+    
   }
   .packOf {
     width: 6.39%;
@@ -38,7 +39,7 @@
     font-weight: 500;
     line-height: 21px;
     color: rgba(0, 0, 0, 1);
-    margin-right: 92px;
+    margin-right: 102px;
   }
   .retailPrice {
     width: 9.64%;
@@ -47,8 +48,8 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 21px;
-    color: rgba(0, 0, 0, 1);
-    margin-right: 109px;
+    color: #000000;
+    margin-right: 100px;
   }
   .ourPrice {
     width: 7.91%;

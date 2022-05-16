@@ -1,9 +1,10 @@
-import React, {useState, useContext} from 'react'
+import React, {useContext} from 'react'
 
 const AppContext = React.createContext()
 
 const AppProvider = ({ children }) => {
     const [mobileScreen, setMobileScreen] = React.useState(window.matchMedia("(max-width: 500px)").matches)
+    const [IsLoading, setIsLoading] = React.useState(false)
 
     React.useEffect(() => {
         const handler = e => setMobileScreen( e.matches);
@@ -12,7 +13,7 @@ const AppProvider = ({ children }) => {
        }, [mobileScreen]);
 
        return (
-        <AppContext.Provider value={{mobileScreen}}>
+        <AppContext.Provider value={{mobileScreen, IsLoading, setIsLoading}}>
             {children}
         </AppContext.Provider>
          )

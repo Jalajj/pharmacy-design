@@ -1,0 +1,72 @@
+.respProduct {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .dolo650Tablet-resp {
+    height: 9.95%;
+    width: 92.39%;
+    font-family: "Poppins";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 39px;
+    color: rgba(0, 0, 0, 1);
+    display: flex;
+    margin-bottom: 32px;
+  }
+  .screenshot20220405At10052-resp {
+    width: 87.73%;
+    height: 57.91%;
+    margin-bottom: 19px;
+    margin-left: 40px;
+  }
+  .flexWrapperFour-resp {
+    padding: 0 0 0 53px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .flexWrapperOne-resp{
+    background-color: rgba(255, 255, 255, 1);
+    margin-right: 17px;
+    border-radius: 2px;
+    padding: 9px 11px 8px 12px;
+    display: flex;
+    align-items: center;
+  }
+  .screenshot20220405At10064-resp {
+    flex: 1;
+    align-self: stretch;
+    object-fit: cover;
+  }
+  .flexWrapperTwo-resp {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 9px 13px 7px 14px;
+    display: flex;
+    align-items: center;
+  
+      margin-right: 17px;
+ 
+  }
+
+  .flexWrapperOne-info-resp {
+    background-color: rgba(223, 241, 249, 1);
+    margin-bottom: 22px;
+    border-radius: 10px;
+    padding: 23px 30px 22px 50px;
+    display: flex;
+    align-items: center;
+    width:100%;
+  }
+  .prescriptionRequired {
+    font-family: "Poppins";
+    margin:auto;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 1);
+    flex: 1;
+    align-self: stretch;
+    width:100%;
+  }
+
+ 

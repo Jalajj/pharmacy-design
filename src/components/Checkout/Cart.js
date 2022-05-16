@@ -2,6 +2,8 @@ import React from "react";
 import "./cart.css";
 
 const Cart = () => {
+
+  
   return (
     <div className={'cart'}>
       <div className={'flexWrapperOne-cart'}>
@@ -10,7 +12,8 @@ const Cart = () => {
         </p>
       </div>
       <div className={'flexWrapperTwo-cart'}>
-        <p className={'yourOrder'}>Your Order</p>
+        <p className={'yourOrder-cart'}>Your Order</p>
+        <hr className="underline-cart" style={{border:'1px solid black', width:'450px', position:'relative', right:30, bottom:10, marginBottom:30}} />
         <div className={'flexWrapperSeven-cart'}>
           <div className={'flexWrapperThree-cart'}>
             <div
@@ -24,7 +27,7 @@ const Cart = () => {
                 className={'screenshot20220405At10101'}
                 src="https://static.overlay-tech.com/assets/0f230b0a-a5aa-41bd-822b-ec0866945ea5.png"
               />
-              <p className={'prescriptionRequired-cart'}>
+              <p className={'prescriptionRequired-cart m-auto'} style={{padding:5}}>
                 Prescription Required
               </p>
             </div>
@@ -41,8 +44,9 @@ const Cart = () => {
             </div>
             <p
               className={
-               ' saltCompositionParacetamol650mg-cart'
+               'saltCompositionParacetamol650mg-cart'
               }
+              style={{marginTop:'-15px'}}
             >
               <strong
                 className={
@@ -77,8 +81,9 @@ const Cart = () => {
             </div>
             <p
               className={
-               ' saltCompositionParacetamol650mgTwo-cart'
+               'saltCompositionParacetamol650mgTwo-cart'
               }
+              style={{marginTop:'-15px'}}
             >
               <strong
                 className={
@@ -92,25 +97,25 @@ const Cart = () => {
           </div>
           <p className={'num7688Two'}>₹76.88</p>
         </div>
-        <div className={'rectangle69-cart'} />
-        <div className={'flexWrapperNine-cart'}>
+        <hr className="underline-cart-2" style={{border:'1px solid black', marginBottom:30}} />
+        <div className={'flexWrapperNine-cart'} style={{paddingLeft:40, paddingRight:40}}>
           <p className={'delivery'}>
             Delivery
             <strong className={'deliveryEmphasis1'}>
               {" "}
             </strong>
           </p>
-          <p className={'free'} style={{marginLeft:'12%'}}>Free</p>
+          <p className={'free'}>Free</p>
         </div>
-        <div className={'flexWrapperTen-cart'}>
+        <div className={'flexWrapperTen-cart'} style={{paddingLeft:40, paddingRight:40}}>
           <p className={'discount'}>Discount</p>
           <p className={'num20'} style={{marginTop:'-1%'}}>-20%</p>
         </div>
-        <div className={'flexWrapperSix-cart'}>
+        <div className={'flexWrapperSix-cart'} >
           <p className={'total'}>Total </p>
-          <p className={'num456'}>₹456</p>
+          <p className={'num456'} style={{marginLeft:5}}>₹456</p>
         </div>
-        <div className={'rectangle66'} />
+        {/* <div className={'rectangle66'} /> */}
       </div>
     </div>
   );

@@ -3,5 +3,118 @@
     top:0;
     right:0;
     height:100vh;
+    overflow: hidden;
+white-space: nowrap; /* Don't forget this one */
+text-overflow: ellipsis;
     width:40vw;
 }
+.fade-container-top{
+  position:absolute;
+  top:0;
+  right:0;
+  height:350px;
+  width:100%;
+  background: linear-gradient(180deg, #DFF1F9 17.3%, rgba(223, 241, 249, 0) 78.03%);
+  /* opacity: 0.5; */
+  z-index:2000;
+}
+
+.fade-container-bottom{
+  position:absolute;
+  bottom:0;
+  right:0;
+  height:50px;
+  width:100%;
+  background: linear-gradient(180.28deg, rgba(223, 241, 249, 0) 17.45%, rgba(223, 241, 249, 0.83) 86.54%);
+  /* opacity: 0.5; */
+  z-index:2000;
+}
+
+.card-1{
+    position: absolute;
+    top:450px;
+    animation: card1 10s linear infinite;
+} 
+
+
+.card-2{
+    position: absolute;
+    top:50px;
+    left:320px;
+    animation: card2 10s linear infinite;
+} 
+.card-3{
+    position: absolute;
+    top:500px;
+    left:320px;
+    animation: card3 10s linear infinite;
+}
+
+.card-4{
+    position: absolute;
+    top:10px;
+    animation: card4 10s linear infinite;
+}
+
+.card-5{
+  position: absolute;
+  top:-700px;
+  animation: card5 10s linear infinite;
+}
+
+.card-6{
+  position: absolute;
+  top:700px;
+  left:320px;
+  animation: card5 10s linear infinite;
+}
+
+@keyframes card2 {
+    0% {
+      top:700px;
+    }
+    100% {
+      top:-600px;
+    }
+  }
+
+  @keyframes card3 {
+    0% {
+      top:1100px;
+    }
+    100% {
+      top:-150px;
+    }
+  }
+
+  @keyframes card4 {
+    0% {
+        top: -500px;
+      }
+      100% {
+       top: 700px;
+      }
+  }
+  
+  
+  @keyframes card1 {
+    0% {
+      top: -100px;
+    }
+    100% {
+     top: 1100px;
+    }
+  }
+
+  /* @keyframes card5 {
+    0% {
+      top: -300px;
+    }
+    100% {
+     top: 800px;
+    }
+  }
+
+  @keyframes card6 {
+   
+  } */

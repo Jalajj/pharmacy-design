@@ -1,25 +1,27 @@
 .suggestionProduct-suggested {
-    background-color: rgba(253, 250, 246, 1);
+    background-color: #fdfaf6;
     padding: 15px 27px 14px 14px;
     box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.25);
     display: flex;
     align-items: flex-start;
   }
   .rectangle205-suggested {
-    width: 5.86%;
+    height:71px;
+    width: 71px;
     align-self: stretch;
     margin-right: 16px;
     object-fit: cover;
   }
   .flexWrapperTwo-suggested {
     margin-right: 72px;
-    padding: 13px 0 0;
+    padding: 3px 0px 0px 0px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-top: 10px;
   }
   .zincovitTablet {
-    width: 100%;
+    width: 133px;
     height: 71.88%;
     font-family: "Poppins";
     font-size: 18px;
@@ -30,6 +32,7 @@
   }
   .paracetamol650mg {
     height: 50%;
+    width:138px !important;
     font-family: "Poppins";
     font-size: 12px;
     font-weight: 500;
@@ -45,7 +48,7 @@
     font-weight: 500;
     line-height: 23px;
     color: rgba(0, 0, 0, 1);
-    margin-top: 13px;
+    margin-top: 23px;
     margin-right: 137px;
   }
   .num20 {
@@ -56,19 +59,20 @@
     font-weight: 500;
     line-height: 23px;
     color: rgba(0, 0, 0, 1);
-    margin-top: 12px;
-    margin-right: 110px;
+    margin-top: 22px;
+    margin-right: 0px;
   }
   .num8607 {
-    width: 5.04%;
+    width: 100%;
     height: 32.39%;
     font-family: "Poppins";
     font-size: 18px;
     font-weight: 500;
     line-height: 23px;
     color: rgba(0, 0, 0, 1);
-    margin-top: 13px;
-    margin-right: 4px;
+    position:relative;
+    right:20px;
+    top:20px;
   }
   .num45 {
     width: 4.21%;
@@ -78,8 +82,11 @@
     font-weight: 500;
     line-height: 23px;
     color: rgba(255, 58, 68, 1);
-    margin-top: 13px;
+    /* margin-top: 13px; */
     margin-right: 82px;
+    position:relative;
+    right:20px;
+    top:20px;
   }
   .num8607Two {
     width: 5.04%;
@@ -89,15 +96,18 @@
     font-weight: 500;
     line-height: 23px;
     color: rgba(0, 0, 0, 1);
-    margin-top: 13px;
+    margin-top: 23px;
     margin-right: 109px;
   }
   .flexWrapperOne-suggested {
     background-color: rgba(253, 250, 246, 1);
-    margin-top: 13px;
-    border-radius: 10px;
-    padding: 7px 38px 8px 39px;
+    margin-top: 15px;
+    border-radius: 2px;
+    padding: 7px 10px 8px 9px;
+    width: 171px;
+    height:40px;
     display: flex;
+    cursor: pointer;
     align-items: center;
     border: 2px solid rgba(28, 54, 104, 1);
   }
@@ -109,4 +119,13 @@
     color: rgba(0, 0, 0, 1);
     flex: 1;
     align-self: stretch;
+    text-align: center;
+  }
+
+  .flexWrapperOne-suggested:hover{
+    background-color: black;
+    color:white;
+  }
+  .flexWrapperOne-suggested:hover p{
+    color:white;
   }

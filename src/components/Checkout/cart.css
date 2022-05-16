@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-
+   
   }
   .flexWrapperOne-cart {
     background-color: rgba(223, 241, 249, 1);
@@ -10,7 +10,7 @@
     border-radius: 10px;
     /* padding: 17px 50px 17px 35px; */
     padding:17px 50px 17px 20px;;
-    width:500px;
+    width:450px;
     display: flex;
     align-items: center;
   }
@@ -20,29 +20,29 @@
     font-weight: 500;
     line-height: 26px;
     color: rgba(0, 0, 0, 1);
-    
     align-self: stretch;
     width:100%;
   }
   .flexWrapperTwo-cart {
     border-radius: 10px;
-    padding: 31px 23px 34px;
+    padding: 1px 1px 4px;
+    padding-left:30px;
+    padding-right:30px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    position: relative;
+width:450px;
     border: 2px solid rgba(230, 230, 230, 1);
   }
-  .yourOrder {
-    width: 26.23%;
-    height: 4.2%;
+  .yourOrder-cart {
+    width: 100%;
     font-family: "Montserrat";
+    padding:40px 10px 20px 0px;
     font-size: 19px;
     font-weight: 600;
     line-height: normal;
     color: rgba(0, 0, 0, 1);
-    margin-bottom: 61px;
-    margin-left: 24px;
+  margin:auto;
   }
   .flexWrapperSeven-cart {
     margin-bottom: 28px;
@@ -56,6 +56,8 @@
     margin-top: 4px;
     margin-right: 21px;
     border-radius: 2px;
+    height:100px;
+    width:100px;
     padding: 19px 11px 20px 10px;
     display: flex;
     align-items: center;
@@ -73,15 +75,16 @@
   }
   .flexWrapperFour-cart {
     background-color: rgba(223, 241, 249, 1);
-    margin-bottom: 8px;
+    margin-bottom: -10px;
+    position:relative;
+    bottom:15px;
     border-radius: 4px;
     padding: 7px 16px 5.53px 9.68px;
     display: flex;
     align-items: center;
   }
   .screenshot20220405At10101 {
-    width: 10.57%;
-    height: 96.73%;
+    
     margin-right: 2.97px;
   }
   .prescriptionRequired-cart {
@@ -94,7 +97,7 @@
     color: rgba(0, 0, 0, 1);
   }
   .dolo650Tablet-cart {
-    width: 77.07%;
+    width: 100%;
     height: 27.66%;
     font-family: "Poppins";
     font-size: 20px;
@@ -166,6 +169,8 @@
     background-image: url("https://static.overlay-tech.com/assets/3c4e161e-e16c-4432-bd43-9c8f51779897.png");
     margin-top: 5px;
     margin-right: 21px;
+    height:100px;
+    width:100px;
     border-radius: 2px;
     padding: 16px 24px 17px 23px;
     display: flex;
@@ -179,7 +184,7 @@
     align-items: flex-start;
   }
   .crocinAdvance {
-    width: 77.56%;
+    width: 100%;
     height: 56.82%;
     font-family: "Poppins";
     font-size: 18px;
@@ -189,7 +194,7 @@
     margin-bottom: 9px;
   }
   .apexLabsLtd {
-    width: 50.74%;
+    width: 100%;
     font-family: "Poppins";
     font-size: 10px;
     font-weight: 500;
@@ -215,6 +220,7 @@
     font-weight: 500;
     line-height: 27px;
     color: rgba(0, 0, 0, 1);
+    margin-top: 20px;
   }
   .rectangle69-cart{
     width: 85.78%;
@@ -287,6 +293,7 @@
     padding: 22px 29px 19px;
     display: flex;
     align-items: flex-start;
+    width:350px;
   }
   .total {
     width: 21.58%;
@@ -306,8 +313,9 @@
     line-height: 34px;
     color: rgba(0, 0, 0, 1);
     align-self: stretch;
-   
-    margin-left:60%;
+     position:relative;
+     left:80px;
+    /* margin-left:60%; */
   }
   .rectangle66 {
     width: 100.88%;
@@ -317,3 +325,316 @@
     left: -2px;
     top: 77px;
   }
+
+  @media only screen and (max-width: 500px){
+    .flexWrapperOne-cart{
+      width: 100%;
+      height: 45.46px;
+      padding:17px 10px 17px 20px;
+    }
+    .freeDeliveryForOrdersOver499 {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15.1528px;
+      line-height: 130%;
+      margin-top:-5px !important;
+    }
+    .flexWrapperTwo-cart {
+      border-radius: 8px;
+      padding: 23px 16.7px 25.28px 16.94px;
+      width:100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      border: 2px solid rgba(230, 230, 230, 1);
+    }
+    .yourOrder-cart{
+      width: 100%;
+      height: 4.34%;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14.3952px;
+      line-height: 18px;
+      color: rgba(0, 0, 0, 1);
+      margin-top:-40px !important;
+      margin-left: 18.18px;
+    }
+    .underline-cart{
+      width: 112% !important;
+      height: 1.52px !important;
+      
+      right:18px !important;
+    }
+    .underline-cart-2{
+      width:100%;
+    }
+    .flexWrapperThree-cart{
+      background-size: 100% 100%;
+  background-position: center;
+  background-image: url("https://static.overlay-tech.com/assets/b5b5aab4-a5e2-464a-8a01-57ea18ef19e1.png");
+  margin-top: 3.03px;
+  margin-right: 15.92px;
+  border-radius: 2px;
+  padding: 14.4px 8.33px 15.14px 7.58px;
+  display: flex;
+  align-items: center;
+    }
+    .flexWrapperEleven-cart{ 
+      margin-right: 11.68px;
+      padding: 3.79px 0 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .flexWrapperFour-cart{
+      background-color: rgba(223, 241, 249, 1);
+      margin-bottom: 6.06px;
+      border-radius: 3px;
+      padding: 5.31px 12.47px 4.19px 7.33px;
+      display: flex;
+      align-items: center;
+      width: 80%;
+    }
+    .prescriptionRequired-cart{
+
+      height: 98.04%;
+      font-family: "Poppins";
+      font-size: 8px;
+      font-weight: 600;
+      line-height: 10px;
+      color: rgba(0, 0, 0, 1);
+      margin:auto;
+    }
+   .dolo650Tablet-cart{
+ width: 100%;
+  height: 28.32%;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 5.76px;
+}
+.flexWrapperTwelve-cart{
+  margin-bottom: 2.88px;
+  display: flex;
+  align-items: flex-start;
+}
+.microLabsLtd{
+  width: 52.35%;
+  font-family: "Poppins";
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 10px;
+  color: rgba(0, 0, 0, 1);
+  align-self: stretch;
+  margin-right: 11.15px;
+}
+.num20Tablets-cart{
+  width: 36.84%;
+  font-family: "Poppins";
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 10px;
+  color: rgba(0, 0, 0, 1);
+  align-self: stretch;
+}
+.saltCompositionParacetamol650mg-cart{
+  height: 14.16%;
+  align-self: stretch;
+  font-family: "Poppins";
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 10px;
+  color: rgba(0, 0, 0, 1);
+}
+.saltCompositionParacetamol650mgEmphasis0-cart{
+  font-family: "Poppins";
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 10px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.num7688{
+  width: 16.49%;
+  height: 26.65%;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 1);
+}
+.rectangle68-cart{
+  width: 85.72%;
+  height: 0.37%;
+  background-color: rgba(230, 230, 230, 1);
+  margin-bottom: 11.36px;
+  margin-left: 18.94px;
+}
+
+.flexWrapperFive-cart{
+  background-size: 100% 100%;
+  background-position: center;
+  background-image: url("https://static.overlay-tech.com/assets/696fa134-7143-45eb-bbd7-33089b9d1adf.png");
+  margin-top: 3.79px;
+  margin-right: 15.92px;
+  border-radius: 2px;
+  padding: 12.12px 18.17px 12.88px 17.43px;
+  display: flex;
+  align-items: center;
+}
+.flexWrapperThirteen-cart{
+  margin-right: 6.37px;
+  padding: 15.91px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.crocinAdvance{
+  width: 100%;
+  height: 58.05%;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 6.76px;
+} 
+.apexLabsLtd{
+  width: 50.41%;
+  font-family: "Poppins";
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 10px;
+  color: rgba(0, 0, 0, 1);
+  align-self: stretch;
+  margin-right: 13.15px;
+}
+.saltCompositionParacetamol650mgTwo-cart{
+  height: 30.55%;
+  align-self: stretch;
+  font-family: "Poppins";
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 10px;
+  color: rgba(0, 0, 0, 1);
+}
+.num7688Two{
+  width: 16.77%;
+  height: 26.4%;
+  font-family: "Poppins";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 1);
+}
+.rectangle69-cart{
+  width: 85.72%;
+  height: 0.37%;
+  background-color: rgba(230, 230, 230, 1);
+  margin-bottom: 19.69px;
+  margin-left: 18.94px;
+}
+.flexWrapperNine-cart{
+  margin-bottom: 12.55px;
+  padding: 0 0 0 34.85px;
+  display: flex;
+  align-items: flex-start;
+}
+.delivery{
+  width: 25.73%;
+  align-self: stretch;
+  margin-right: 150.26px;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.deliveryEmphasis1{
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 1);
+}
+.free {
+  width: 13.65%;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 1);
+  align-self: stretch;
+}
+.flexWrapperTen-cart{
+  margin-bottom: 13.31px;
+  padding: 0 0 0 34.85px;
+  display: flex;
+  align-items: flex-start;
+}
+.discount {
+  width: 27.92%;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.6);
+  align-self: stretch;
+  margin-right: 142.23px;
+}
+.num20 {
+  width: 16.55%;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 1);
+  align-self: stretch;
+}
+.flexWrapperSix-cart{
+  background-color: rgba(255, 255, 255, 1);
+  margin-left: 18.94px;
+  border-radius: 6px;
+  padding: 16.67px 21.45px 25.15px 21.97px;
+  display: flex;
+  align-items: flex-start;
+  width: 265.17px !important;
+  height: 56.82px !important;
+}
+.total {
+  
+  font-family: "Poppins";
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 1);
+  align-self: stretch;
+  margin:auto;
+  
+}
+.num456 {
+  width: 22.1%;
+  font-family: "Poppins";
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 1);
+  align-self: stretch;
+  left:10px;
+
+}
+.rectangle66{
+  width: 101.17%;
+  height: 0.33%;
+  background-color: rgba(230, 230, 230, 1);
+  position: absolute;
+  left: -2px;
+  top: 57.85px;
+}
+}
+@media only screen and (max-width: 380px){
+
+}

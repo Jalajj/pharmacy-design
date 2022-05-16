@@ -26,6 +26,77 @@
   text-decoration: none;
 }
 
+.left-view-container{
+   position:relative;
+   right:50px;
+}
+
+.card-price-auth{
+  display:grid;
+  grid-template-columns:repeat(3, 0.2fr);
+  position:absolute;
+  top:30px;
+}
+.card-auth-0{
+  position:absolute;
+  top:590px;
+  left:600px;
+  animation: cardauth1 10s linear infinite;
+}
+.card-auth-1{
+  position:absolute;
+  top:590px;
+  left:300px;
+ 
+}
+.card-auth-2{
+  position:absolute;
+  top:590px;
+
+}
+.card-auth-3{
+  position:absolute;
+  top:290px;
+  left:600px;
+  animation: cardauth2 10s linear infinite;
+}
+.card-auth-4{
+  position:absolute;
+  top:290px;
+  left:300px;
+}
+
+.card-auth-5{
+  position:absolute;
+  top:290px;
+  left:0px;
+}
+.card-auth-6{
+  position:absolute;
+  top:0px;
+  left:600px;
+}
+
+.card-auth-7{
+  position:absolute;
+  top:0px;
+  left:300px;
+}
+
+.card-auth-8{
+  position:absolute;
+  top:0px;
+  left:0px;
+}
+
+.card-price-mob{
+  display:grid;
+  grid-template-columns:repeat(2, 1fr);
+}
+
+
+
+
 .auth-btn{
     width: 372px;
     height: 60px;

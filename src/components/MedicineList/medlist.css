@@ -4,5 +4,10 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 38px;
-    color: rgba(0, 0, 0, 1);
+    color:black;
+  }
+
+  .item:hover {
+    cursor: pointer;
+    color:  #F8A800;
   }

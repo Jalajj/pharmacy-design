@@ -5,6 +5,8 @@ import ProductLayout from '../../layouts/Home/Product/Product-layout';
 import Nav from './../../layouts/Nav/Nav';
 import { useGlobalContext } from './../../context/index';
 import MainNav from '../../mobile/Layout/MobileNav/MainNav';
+import RespFooter from '../../mobile/Layout/RespFooter/RespFooter';
+import Footer from '../../layouts/Footer/Footer';
 
 function Category() {
   const {mobileScreen} = useGlobalContext();
@@ -15,7 +17,7 @@ function Category() {
       <Landing />
       <Categories />
         <ProductLayout />
-        {/* <Footer /> */}
+        {mobileScreen ? <RespFooter /> : <Footer />}
     </div>
   )
 }

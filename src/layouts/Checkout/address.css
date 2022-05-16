@@ -1,5 +1,6 @@
+
 .name-input{
-    width: 500px;
+    width: 400px;
     height: 60px;
     border: 2px solid rgba(230, 230, 230, 1);
     border-radius: 10px;
@@ -7,4 +8,39 @@
     font-family:'Poppins';
     font-weight:600;
     padding: 20px;
+}
+.dot-container{
+    position: relative;
+    bottom: 7px;;
+}
+
+.shipping-text{
+    position:relative;
+    bottom: 3px;
+}
+
+.b-text{
+    position: relative;
+    right:2.5px !important;
+}
+
+.d-text{
+    position: relative;
+    right:2.5px !important;
+    top:3px;
+}
+
+.c-text{
+    position: relative;
+    right:2.5px !important;
+    bottom: 2px;
+}
+
+@media only screen and (max-width: 500px){
+    .checkoutInfo1-info{
+        margin:auto;
+    }
+    .name-input{
+        width:330px;
+    }
 }

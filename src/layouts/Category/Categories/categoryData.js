@@ -1,27 +1,44 @@
+import beauty from '../../../assets/beauty.png'
+import sanitization from '../../../assets/sanitization.png'
+import supplements from '../../../assets/supplements.png'
+import babycare from '../../../assets/babycare.png'
+import hygiene from '../../../assets/hygiene.png'
+import home from '../../../assets/home.png'
+import general from '../../../assets/general.png'
+import Med from '../../../assets/med.png'
+
 const categoryData = [
     {
-        name: 'Medicine'
+        name: 'Medicine',
+        src:Med
     },
     {
-        name: 'Beauty & Health'
+        name: 'Beauty & Health',
+        src:beauty
     },
     {
-        name: 'Baby Care'
+        name: 'Baby Care',
+        src:babycare
     },
     {
-        name: 'Hygiene'
+        name: 'Hygiene',
+        src:hygiene
     },
     {
-        name: 'Home & Cleaning'
+        name: 'Home & Cleaning',
+        src:home
     },
     {
-        name: 'Suppliments'
+        name: 'Suppliments',
+        src:supplements
     },
     {
-        name: 'Sanitations'
+        name: 'Sanitations',
+        src:sanitization
     },
     {
-        name: 'General'
+        name: 'General',
+        src:general
     },
 ]
 

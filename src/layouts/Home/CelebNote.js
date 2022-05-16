@@ -10,6 +10,7 @@ const CelebNote = () => {
       <div className="row">
         <div className="col-md-3">
         <img
+        className='celeb-narendra'
         alt="pm"
         style={mobileScreen ? {position:'relative', bottom:70, right:20}: null}
         src="https://static.overlay-tech.com/assets/303ce4aa-b026-445a-86aa-38171a89c7e1.png"

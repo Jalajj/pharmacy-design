@@ -1,0 +1,9 @@
+.supplement-container{
+    height: 150px !important;
+    width:250px !important;
+    padding:auto;
+}
+
+.supplement-category-container{
+    padding: 10px 100px 30px 60px;
+}

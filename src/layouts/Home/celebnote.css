@@ -55,3 +55,10 @@
       margin-left:30px;
     }
   }
+  @media only screen and (max-width: 360px){
+    .celeb-narendra{
+      position: relative;
+      right:20px !important;
+       width:340px !important;
+    }
+  }

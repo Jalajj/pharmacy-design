@@ -30,29 +30,36 @@
   }
   .flexWrapperOne-cta {
     background-color: white;
+    width:530px;
     margin-bottom: 16px;
     margin-left: 76px;
     border-radius: 5px;
-    padding: 19px 209px 20px 28px;
+    padding: 19px 100px 20px 28px;
     display: flex;
     align-items: center;
     border: 1px solid rgba(235, 236, 241, 1);
   }
   .enterYourDrugNameOrComposition {
     font-family: "Poppins";
+    width:100%;
     font-size: 16px;
     font-weight: 500;
     line-height: 23px;
     color: rgba(0, 0, 0, 0.6);
     flex: 1;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
     align-self: stretch;
   }
   .flexWrapperTwo-cta {
     background-color: white;
+    width:530px;
     margin-bottom: 30px;
     margin-left: 76px;
     border-radius: 5px;
-    padding: 19px 209px 20px 28px;
+    padding: 19px 109px 20px 28px;
     display: flex;
     align-items: center;
     border: 1px solid rgba(235, 236, 241, 1);
@@ -76,3 +83,103 @@
     align-self: stretch;
   }
   
+  @media only screen and (max-width: 500px){
+    .ctaMed {
+      padding: 41px 28.5px 47.45px 29px;
+      width:420px;
+      position:relative;
+      right:24px;
+    }
+    .dontSeeYourMedication {
+      font-size: 25px;
+      font-weight: 500;
+      line-height: 32px;
+      margin-bottom: 22px;
+      text-align: center;
+      margin-left:1px;
+      width:344px;
+    }
+    .wereAlwaysAddingNewMedicationsToO {
+      /* max-width: 358px; */
+      width: 100%;
+      height: 16.59%;
+      font-family: "Poppins";
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 18px;
+      color: rgba(32, 33, 33, 1);
+      text-align: center;
+      /* margin-left: 12px; */
+      margin-bottom: 57px;
+    }
+    .flexWrapperOne-cta {
+      background-color: rgba(255, 255, 255, 1);
+      margin-bottom: 10.98px;
+      width:100%;
+      border-radius: 3px;
+      padding: 12.72px 50px 10.19px 18.9px;
+      display: flex;
+      align-items: center;
+      border: 1px solid rgba(235, 236, 241, 1);
+    }
+    .enterYourDrugNameOrComposition {
+      width: 100%;
+      height: 100%;
+      font-family: "Poppins";
+      font-size: 11px;
+      font-weight: 500;
+      line-height: 16px;
+      color: rgba(0, 0, 0, 0.6);
+    }
+    .flexWrapperTwo-cta {
+      background-color: rgba(255, 255, 255, 1);
+      margin-bottom: 20.58px;
+      border-radius: 3px;
+      padding: 12.72px 50.6px 10.19px 18.9px;
+      display: flex;
+      align-items: center;
+      width:100%;
+      border: 1px solid rgba(235, 236, 241, 1);
+    }
+  .flexWrapperThree-cta {
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 3px;
+    padding: 10.62px 60.79px 1.55px 60.04px;
+    display: flex;
+    margin:auto;
+    align-items: center;
+   }
+   .submit-cta{
+    width: 100%;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+    align-self: stretch;
+   }
+  }
+
+  @media only screen and (max-width: 360px){
+    .dontSeeYourMedication {
+      font-size: 20px !important;
+      margin-left:-10px;
+    }
+    .wereAlwaysAddingNewMedicationsToO {
+      margin-left: -10px;
+      font-size: 10px;
+      width:90%;
+    }
+    .flexWrapperOne-cta {
+      width:90% !important;
+      margin-left: -10px !important;
+    }
+    .flexWrapperTwo-cta {
+      width:90% !important;
+      margin-left: -10px !important;
+    }
+    .flexWrapperThree-cta{
+        position:relative;
+        right:20px !important;
+     }
+  }
